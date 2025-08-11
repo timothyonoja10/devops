@@ -1,0 +1,11 @@
+cd C:\Users\ADDIS\Desktop\packer-tutorial\chapter4\worker
+
+On aws, create User, User Group with access: EC2, Admin, s3full
+Download access key for the User
+
+aws configure
+
+packer init .
+packer fmt .
+packer validate .
+packer build template.pkr.hcl

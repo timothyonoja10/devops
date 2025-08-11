@@ -1,0 +1,11 @@
+
+set AWS_ACCESS_KEY_ID=
+set AWS_SECRET_ACCESS_KEY=
+
+Use access key for IAM User
+
+terraform init
+terraform fmt
+terraform validate
+terraform apply
+terraform destroy
