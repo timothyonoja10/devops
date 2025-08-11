@@ -4,6 +4,15 @@ set AWS_SECRET_ACCESS_KEY=
 
 Use access key for IAM User
 
+cd C:\Users\ADDIS\Desktop\packer-tutorial\chapter4\master
+
+On aws, create User, User Group with access: EC2, Admin, s3full
+Download access key for the User
+
+aws configure
+
+geneate SSH Key (id_rsa and id_rsa.pub) using keygen on terminal
+
 terraform init
 terraform fmt
 terraform validate

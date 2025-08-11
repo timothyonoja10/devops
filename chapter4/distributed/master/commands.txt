@@ -5,7 +5,11 @@ Download access key for the User
 
 aws configure
 
+geneate SSH Key (id_rsa and id_rsa.pub) using keygen on terminal
+
 packer init .
 packer fmt .
 packer validate .
 packer build template.pkr.hcl
+
+check AMI in EC2

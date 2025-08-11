@@ -38,9 +38,9 @@ source "amazon-ebs" "jenkins" {
   instance_type   = "${var.instance_type}"
   region          = "${var.region}"
   source_ami      = "ami-0b86aaed8ef90e45f"
-  ssh_username = "ec2-user"
+  ssh_username    = "ec2-user"
   run_tags = {
-    Name = "jenkins-worker" 
+    Name = "jenkins-worker"
   }
 }
 

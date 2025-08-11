@@ -1,5 +1,6 @@
 chapter4/distributed/master/id_rsa
 chapter4/distributed/master/id_rsa.pub
+chapter4/distributed/master/awsUserAccessKeys.csv
 chapter5/id_rsa
 chapter5/id_rsa.pub
-chapter5/Packer_accessKeys.csv
+chapter5/awsUserAccessKeys.csv
